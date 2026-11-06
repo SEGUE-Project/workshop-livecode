@@ -4,7 +4,8 @@
 The repository should mimic the project structure of the R project that has been created by the instructors during the Workshop. 
 
 Go to the file in which the instructor is now coding: 
-- Add link to scripts within this repo (e.g., `existing-packages.R`)
+- [intro-to-r.R](https://github.com/Rbanism/geospatial-data-carpentry-urbanism-tud-2026-02-livecode/blob/main/data-carpentry/script/intro-to-r.R)
+Add link to scripts within this repo (e.g., `existing-packages.R`)
 
 You don't see the most recent lines of code? Be patient and refresh the page and see the new commands coming in!
 
