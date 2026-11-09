@@ -33,5 +33,6 @@ age_two_count_matrix <- age_two_count |>
   select(age_under25, age_over25) |>
   as.matrix()
 
+# compute dissimilarity index
 dissim_OasisR <- DIDuncan(age_two_count_matrix)
 dissim_OasisR
