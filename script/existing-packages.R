@@ -126,7 +126,7 @@ dissim_multigroup
 
 # computation with divseg
 
-
+divseg_first_vs_rest <- ds_dissim)
 
 
 
