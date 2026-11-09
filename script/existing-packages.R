@@ -26,4 +26,6 @@ age_two_count_sf <- rotterdam_muni |>
   filter(age_under25 + age_over25 > 0)
 
 age_two_count <- age_two_count_sf |>
+  st_drop_geometry()
+
 
