@@ -120,8 +120,8 @@ pairwise_D
 
 DMulti
 
-dissim_multigroup <- DMulti(age)
-
+dissim_multigroup <- DMulti(age_multi_matrix)
+dissim_multigroup
 
 
 
