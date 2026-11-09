@@ -77,7 +77,7 @@ dissim_segregation_value
 
 # Comparison across packages
 
-table(
+tibble(
   package = c("OasisR", "divseg", "segregation"),
   D = c(dissim_OasisR_value,
         dissim_divseg_value,
