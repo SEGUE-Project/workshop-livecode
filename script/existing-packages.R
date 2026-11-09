@@ -54,3 +54,8 @@ dissim_divseg_value
 # segregation
 
 dissimilarity
+
+# transforming data into long format
+
+
+
