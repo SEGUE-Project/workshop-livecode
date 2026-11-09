@@ -26,3 +26,4 @@ age_two_count_sf <- rotterdam_muni |>
   filter(age_under25 + age_over25 > 0)
 
 
+
