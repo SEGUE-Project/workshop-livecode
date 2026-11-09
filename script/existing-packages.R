@@ -118,6 +118,7 @@ age_multi_long <- age_multi_sf |>
 pairwise_D <- DIDuncan(age_multi_matrix)  
 pairwise_D  
 
+DMulti
 
 
 
