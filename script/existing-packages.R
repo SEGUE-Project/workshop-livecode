@@ -53,3 +53,4 @@ dissim_divseg_value
 
 # segregation
 
+dissimilarity
