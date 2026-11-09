@@ -59,5 +59,5 @@ dissimilarity
 
 age_two_count_long <- age_two_count |>
   select(crs28992res500m, age_under25, age_over25) |>
-  
+  pivot_longer(!crs28992res500m, names_to = )
 
