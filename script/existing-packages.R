@@ -126,7 +126,10 @@ dissim_multigroup
 
 # computation with divseg
 
-divseg_first_vs_rest <- ds_dissim)
+divseg_first_vs_rest <- ds_dissim(
+  age_multi_sf,
+  c()
+)
 
 
 
