@@ -77,5 +77,6 @@ dissim_segregation_value
 # Comparison across packages
 
 table(
-  package = c("OasisR")
+  package = c("OasisR", "divseg", "segregation"),
+  D = c()
 )
