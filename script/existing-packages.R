@@ -128,7 +128,10 @@ dissim_multigroup
 
 divseg_first_vs_rest <- ds_dissim(
   age_multi_sf,
-  c()
+  c(age_0_15, age_15_25,
+    age_25_45, age_45_65, 
+    age_older65),
+  .name
 )
 
 
