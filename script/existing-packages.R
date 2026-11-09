@@ -83,3 +83,8 @@ tibble(
         dissim_divseg_value,
         dissim_segregation_value)
 )
+
+
+
+## Multigroup dissimilarity computation
+
