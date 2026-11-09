@@ -88,3 +88,4 @@ tibble(
 
 ## Multigroup dissimilarity computation
 
+age_multi_sf <- rotterdam_muni
