@@ -100,7 +100,8 @@ age_multi_sf <- rotterdam_muni |>
 
 age_multi_matrix <- age_multi_sf |>
   st_drop_geometry() |>
-  select(-)
+  select(-crs28992res500m) |>
+  as.matrix()
 
   
   
