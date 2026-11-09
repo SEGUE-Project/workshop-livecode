@@ -68,3 +68,5 @@ dissim_segregation <- dissimilarity(
   unit = "crs28992res500m",
   weight = "n"
 )
+
+dissim_segregation
