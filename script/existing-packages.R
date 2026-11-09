@@ -94,7 +94,9 @@ age_multi_sf <- rotterdam_muni |>
          age_25_45, age_45_65, 
          age_older65) |>
   drop_na() |>
-  filter()
+  filter(age_0_15 + age_15_25 +
+         age_25_45 + age_45_65, 
+         age_older65)
   
 
 
