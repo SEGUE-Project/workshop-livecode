@@ -42,4 +42,6 @@ dissim_OasisR
 # divseg
 ds_dissim
 
-
+dissim_divseg <- ds_dissim(
+  
+)
