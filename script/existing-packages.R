@@ -58,5 +58,6 @@ dissimilarity
 # transforming data into long format
 
 age_two_count_long <- age_two_count |>
-  select
+  select(crs28992res500m, age_under25, age_over25) |>
+  
 
