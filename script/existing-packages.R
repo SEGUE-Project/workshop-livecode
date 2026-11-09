@@ -70,3 +70,5 @@ dissim_segregation <- dissimilarity(
 )
 
 dissim_segregation
+
+dissim_segregation_
