@@ -124,7 +124,9 @@ dissim_multigroup <- DMulti(age_multi_matrix)
 dissim_multigroup
 
 
-# computation with OasisR
+# computation with divseg
+
+
 
 
 
