@@ -65,5 +65,6 @@ age_two_count_long <- age_two_count |>
 dissim_segregation <- dissimilarity(
   age_two_count_long,
   group = "group",
-  
+  unit = "crs28992res500m",
+  weight
 )
