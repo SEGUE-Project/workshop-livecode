@@ -140,6 +140,8 @@ first(divseg_first_vs_rest)
 # computation with segregation
 
 dissimilarity(
-  age_multi_long
+  age_multi_long,
+  group = "group",
+  unit = "crs28992res500m"
 )
 
