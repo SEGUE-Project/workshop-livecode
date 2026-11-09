@@ -89,8 +89,9 @@ tibble(
 ## Multigroup dissimilarity computation
 
 age_multi_sf <- rotterdam_muni |>
-  select(age_0_15, age_15_25),
-age_over25 = (age_25_45 + age_45_65 + age_older65)
+  select(crs28992res500m,
+         age_0_15, age_15_25,
+         age_25_45, age_45_65, age_older65)
 
 
 
