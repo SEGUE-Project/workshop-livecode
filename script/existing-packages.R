@@ -114,7 +114,7 @@ age_multi_long <- age_multi_sf |>
 
 # computation with OasisR
 
-pairwise_D <- ISDuncan(age_multi_matrix)  
+pairwise_D <- DIDuncan(age_multi_matrix)  
 pairwise_D  
 
 
