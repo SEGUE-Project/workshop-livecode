@@ -107,7 +107,7 @@ age_multi_long <- age_multi_sf |>
   st_drop_geometry() |>
   pivot_longer(
     cols = starts_with("age_"),
-    
+    grou
   )
   
   
