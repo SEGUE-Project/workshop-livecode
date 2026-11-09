@@ -11,5 +11,7 @@ library(OasisR)
 library(divseg)
 library(segregation)
 
-# compute dissimilarity
+# dissimilarity index functions
+
+
 
