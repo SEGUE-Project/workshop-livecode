@@ -13,5 +13,5 @@ library(segregation)
 
 # dissimilarity index functions
 
-DI
+DIDuncan
 
