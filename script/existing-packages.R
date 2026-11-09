@@ -36,3 +36,6 @@ age_two_count_matrix <- age_two_count |>
 # compute dissimilarity index
 dissim_OasisR <- DIDuncan(age_two_count_matrix)
 dissim_OasisR
+
+# divseg
+ds_dissim
