@@ -7,4 +7,5 @@ rotterdam_muni <- st_read("data/rotterdam_500m.gpkg") |>
 
 # segregation packages
 
-library()
+library(OasisR)
+library(divseg)
