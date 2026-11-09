@@ -135,6 +135,6 @@ divseg_first_vs_rest <- ds_dissim(
 )
 
 
-
+divseg_first_vs_rest
 
 
