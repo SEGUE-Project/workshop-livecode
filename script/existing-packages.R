@@ -62,4 +62,6 @@ age_two_count_long <- age_two_count |>
   pivot_longer(!crs28992res500m, names_to = "group", values_to = "n") |>
   filter(n > 0)
 
-
+dissim_segregation <- dissimilarity(
+  
+)
