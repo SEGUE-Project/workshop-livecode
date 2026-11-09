@@ -74,3 +74,8 @@ dissim_segregation
 dissim_segregation_value <- dissim_segregation$est[[1]]
 dissim_segregation_value
 
+# Comparison across packages
+
+table(
+  package = c("OasisR")
+)
