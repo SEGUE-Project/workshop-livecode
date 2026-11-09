@@ -13,5 +13,7 @@ library(segregation)
 
 # dissimilarity index functions
 
+# OasisR
 DIDuncan
+
 
