@@ -103,7 +103,9 @@ age_multi_matrix <- age_multi_sf |>
   select(-crs28992res500m) |>
   as.matrix()
 
-age_multi_long <- age_
+age_multi_long <- age_multi_sf |>
+  st_drop_geometry() |>
+  pivot_longer()
   
   
 
