@@ -103,6 +103,7 @@ age_multi_matrix <- age_multi_sf |>
   select(-crs28992res500m) |>
   as.matrix()
 
+age_multi
   
   
 
