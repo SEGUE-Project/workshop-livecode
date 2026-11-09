@@ -23,6 +23,6 @@ age_two_count_sf <- rotterdam_muni |>
          age_over25 = (age_25_45 + age_45_65 + age_older65)) |>
   select(crs28992res500m, age_under25, age_over25) |>
   drop_na(age_under25, age_over25) |>
-  filter()
+  filter(age_under25 + age_over25 > 0)
 
 
