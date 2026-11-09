@@ -79,5 +79,6 @@ dissim_segregation_value
 
 table(
   package = c("OasisR", "divseg", "segregation"),
-  D = c(dissim_OasisR)
+  D = c(dissim_OasisR_value,
+        dissim)
 )
