@@ -50,3 +50,6 @@ dissim_divseg <- ds_dissim(
 dissim_divseg_value <- dissim_divseg[[1]]
 dissim_divseg_value
 
+
+# segregation
+
