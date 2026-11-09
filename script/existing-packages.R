@@ -37,5 +37,7 @@ age_two_count_matrix <- age_two_count |>
 dissim_OasisR <- DIDuncan(age_two_count_matrix)
 dissim_OasisR
 
+
+
 # divseg
 ds_dissim
