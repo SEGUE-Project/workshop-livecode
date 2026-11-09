@@ -43,5 +43,6 @@ dissim_OasisR
 ds_dissim
 
 dissim_divseg <- ds_dissim(
-  
+  age_two_count,
+  c()
 )
