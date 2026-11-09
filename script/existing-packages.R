@@ -131,7 +131,7 @@ divseg_first_vs_rest <- ds_dissim(
   c(age_0_15, age_15_25,
     age_25_45, age_45_65, 
     age_older65),
-  .name
+  .name = "D_under15_vs_rest"
 )
 
 
