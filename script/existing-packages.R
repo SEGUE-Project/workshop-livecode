@@ -72,3 +72,4 @@ dissim_segregation <- dissimilarity(
 dissim_segregation
 
 dissim_segregation_value <- dissim_segregation$est[[1]]
+dissim_segregation_value
