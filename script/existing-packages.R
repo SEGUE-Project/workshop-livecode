@@ -99,7 +99,8 @@ age_multi_sf <- rotterdam_muni |>
          age_older65 > 0) 
 
 age_multi_matrix <- age_multi_sf |>
-  
+  st_drop_geometry() |>
+  select(-)
 
   
   
