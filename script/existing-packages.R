@@ -28,4 +28,5 @@ age_two_count_sf <- rotterdam_muni |>
 age_two_count <- age_two_count_sf |>
   st_drop_geometry()
 
-
+age_two_count_matrix <- age_two_count |>
+  select(age_under25, age_over25) |
