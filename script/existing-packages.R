@@ -46,3 +46,5 @@ dissim_divseg <- ds_dissim(
   age_two_count,
   c(age_under25, age_over25)
 )
+
+dissim_divseg
