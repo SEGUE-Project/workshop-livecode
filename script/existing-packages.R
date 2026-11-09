@@ -110,7 +110,8 @@ age_multi_long <- age_multi_sf |>
     names_to = "group",
     values_to = "n"
   )
-  
+
+pair  
   
 
 
