@@ -18,5 +18,6 @@ library(segregation)
 # OasisR
 DIDuncan
 
-age_two_count_sf <- rotterdam_muni
+age_two_count_sf <- rotterdam_muni |>
+  
 
