@@ -19,5 +19,6 @@ library(segregation)
 DIDuncan
 
 age_two_count_sf <- rotterdam_muni |>
-  
+  mutate(age_under25 = (age_0_15 + age_15_25),
+         )
 
