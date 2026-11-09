@@ -63,5 +63,7 @@ age_two_count_long <- age_two_count |>
   filter(n > 0)
 
 dissim_segregation <- dissimilarity(
+  age_two_count_long,
+  group = "group",
   
 )
