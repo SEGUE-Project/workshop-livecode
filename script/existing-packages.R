@@ -111,7 +111,7 @@ age_multi_long <- age_multi_sf |>
     values_to = "n"
   )
 
-pair  
+pairwise_D <- DIDuncan  
   
 
 
