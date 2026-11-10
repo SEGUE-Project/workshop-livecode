@@ -34,4 +34,11 @@ for (name in c("spseg", "localenv")) {
 
 ?spseg
 
+# Let's start!!!
+
+
+
+
+
+
 
