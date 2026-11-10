@@ -106,3 +106,6 @@ library(ggplot2)
 ggplot() +
   geom_sf(data = spatial_data) +
   theme_minimal()
+
+
+study-are
