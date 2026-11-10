@@ -58,5 +58,5 @@ income <- income %>%
          year == Year,
          sex == "total")
 
-
+population <- population 
 
