@@ -108,4 +108,4 @@ ggplot() +
   theme_minimal()
 
 
-study-are
+study_area <-
