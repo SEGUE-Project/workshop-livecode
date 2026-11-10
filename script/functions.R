@@ -112,3 +112,4 @@ spatial_data <- spatial_data %>%
   mutate(district = substr(tract_code, 6, 7))
 
 
+sud
