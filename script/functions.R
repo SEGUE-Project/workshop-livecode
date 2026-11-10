@@ -24,3 +24,4 @@ seg_fixed <- new.env(parent = asNamespace("seg"))
 
 
 
+
