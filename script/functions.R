@@ -68,4 +68,6 @@ head(population)
 # join income and population by census tract
 
 data <- left_join(income, population,
-                  by = )
+                  by = "tract_code")
+
+head(data)
