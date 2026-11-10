@@ -7,7 +7,7 @@
 # pak::pak("syunhong/seg")
 
 # install ineAtlas
-
+# pak::pak("pab)
 
 
 # load packages
