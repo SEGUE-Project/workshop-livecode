@@ -90,3 +90,5 @@ shares <- data %>%
   )
 
 # prepare spatial data  
+
+tracts <- 
