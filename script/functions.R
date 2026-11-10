@@ -59,5 +59,6 @@ income <- income %>%
          sex == "total")
 
 population <- population %>%
-  filter(mun_code )
+  filter(mun_code == City,
+         year = Year) 
 
