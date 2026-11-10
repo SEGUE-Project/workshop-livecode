@@ -173,6 +173,6 @@ ggplot(
   geoom_point() +
   labs(x = "Population rank p (share of people below threshold)",
        y = "Spatial information theory index H",
-       colou
+       colour = "Scale (m)") 
 
 )
