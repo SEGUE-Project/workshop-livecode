@@ -133,7 +133,8 @@ for (scale in scales) {
   for (threshold in thresholds) {
     
     database <- data.frame(
-      Below = area_shares$population * area_shares[[threshold]]
+      Below = area_shares$population * area_shares[[threshold]],
+      Above = area_shares$population 
     )
   }
 }
