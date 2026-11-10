@@ -5,6 +5,7 @@ The repository should mimic the project structure of the R project that has been
 
 Go to the file in which the instructor is now coding: 
 - [Code Along 1: existing packages](https://github.com/SEGUE-Project/workshop-livecode/tree/main/script/existing-packages.R)
+- [Code Along 2: writing functions](https://github.com/SEGUE-Project/workshop-livecode/tree/main/script/functions.R)
 
 You don't see the most recent lines of code? Be patient and refresh the page and see the new commands coming in!
 
