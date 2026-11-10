@@ -104,4 +104,5 @@ spatial_data <- spatial_data %>%
 library(ggplot2)
 
 ggplot() +
-  geom_sf
+  geom_sf(data = spatial_data) +
+  theme_minimal()
