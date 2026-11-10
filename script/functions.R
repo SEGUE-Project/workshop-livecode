@@ -137,7 +137,9 @@ for (scale in scales) {
       Above = area_shares$population * (1 - area_shares[[threshold]])
     )
     
-    if (p > 0 && p )
+    if (p > 0 && p < 1) {
+      message("Scale ", scale)
+    }
     
     p <- sum(database$Below) / sum(area_shares$population)
     
