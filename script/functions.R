@@ -171,5 +171,5 @@ ggplot(
                     colour = factor(Scale))) +
   geom_line() +
   geoom_point() +
-  labs()
+  labs(x = "Population rank p ")
 )
