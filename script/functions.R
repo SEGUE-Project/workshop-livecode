@@ -130,5 +130,8 @@ thresholds <- names(area_shares)[grepl("^below_",names(area_shares))]
 SITI_results <- data.frame()
 
 for (scale in scales) {
-  for (thres)
+  for (threshold in thresholds) {
+    
+    data
+  }
 }
