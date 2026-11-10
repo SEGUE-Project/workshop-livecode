@@ -37,7 +37,8 @@ for (name in c("spseg", "localenv")) {
 # Let's start!!!
 
 options(scipen = 999)
-City <- "01" # INE mun
+City <- "01" # INE munic. code: Barcelona
+
 
 
 
