@@ -74,4 +74,8 @@ head(data)
 
 # Calculate cumulative income share
 
-shares
+shares <- data %>%
+  transmute(
+    tract_code,
+  )
+  
