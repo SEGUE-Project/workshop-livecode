@@ -137,6 +137,8 @@ for (scale in scales) {
       Above = area_shares$population * (1 - area_shares[[threshold]])
     )
     
+    if
+    
     p <- sum(database$Below) / sum(area_shares$population)
     
     SITI_results <- seg_fixed$spseg(
