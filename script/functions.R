@@ -36,6 +36,7 @@ for (name in c("spseg", "localenv")) {
 
 # Let's start!!!
 
+options()
 
 
 
