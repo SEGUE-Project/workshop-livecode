@@ -118,4 +118,5 @@ study_area <- spatial_data %>%
 
 # from polygons to points
 
-points <- st_point_on_surface(st_geom)
+points <- st_point_on_surface(st_geometry(study_area))
+coords <- st_
