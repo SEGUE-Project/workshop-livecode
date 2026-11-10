@@ -36,7 +36,7 @@ for (name in c("spseg", "localenv")) {
 
 # Let's start!!!
 
-options()
+options(scipen = 999)
 
 
 
