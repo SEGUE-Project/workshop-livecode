@@ -24,5 +24,5 @@ seg_fixed <- new.env(parent = asNamespace("seg"))
 
 seg_fixed$CRS <- sf::st_crs
 
-for 
+for (name in c("spseg", "locale"))
 
