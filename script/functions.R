@@ -39,7 +39,10 @@ for (name in c("spseg", "localenv")) {
 options(scipen = 999)
 City <- "08019"   # INE munic. code: Barcelona
 District <- "01"  # district of Ciutat Vella
-Year <- 2022 
+Year <- 2022      # year of income atlas
+
+
+
 
 
 
