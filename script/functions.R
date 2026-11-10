@@ -26,6 +26,7 @@ seg_fixed$CRS <- sf::st_crs
 
 for (name in c("spseg", "localenv")) {
   fun <- get(name, envir = asNamespace("seg"))
-  environment(fun) <- seg_fix
+  environment(fun) <- seg_fixed
+  seg_fixed[[name]] <- function()
 }
 
