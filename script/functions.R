@@ -172,6 +172,7 @@ ggplot(
   geom_line() +
   geoom_point() +
   labs(x = "Population rank p (share of people below threshold)",
-       y = "S"
+       y = "Spatial information theory index H",
+       colou
 
 )
