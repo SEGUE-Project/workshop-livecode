@@ -53,6 +53,7 @@ population <- get_atlas("demographics", "tract")
 unique(income$sex)
 head(income$sex)
 
-income <- income 
+income <- income %>%
+  filter(mun_code == City,)
 
 
