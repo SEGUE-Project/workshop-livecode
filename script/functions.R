@@ -76,6 +76,7 @@ head(data)
 
 shares <- data %>%
   transmute(
-    tract_code,
+    tract_code, population,
+    below_5000 
   )
   
