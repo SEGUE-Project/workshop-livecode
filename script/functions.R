@@ -143,7 +143,9 @@ for (scale in scales) {
       x = coords,
       data = database,
       method = "information",
-      smooth
+      smoothing = "kernel",
+      sigma = scale,
+      useC
 
     )
   }
