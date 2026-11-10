@@ -51,7 +51,7 @@ income <- get_atlas("distribution_sex", "tract")
 population <- get_atlas("demographics", "tract")
 
 unique(income$sex)
-head(incom)
+head(income$sex)
 
 
 
