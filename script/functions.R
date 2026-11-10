@@ -92,4 +92,6 @@ shares <- data %>%
 # prepare spatial data  
 
 tracts <- get_tract_geom(Year) %>%
-  filter(substr(tract_code,1,5) )
+  filter(substr(tract_code,1,5) == City)
+
+spatial_data <- 
