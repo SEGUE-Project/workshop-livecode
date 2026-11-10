@@ -56,6 +56,7 @@ head(income$sex)
 income <- income %>%
   filter(mun_code == City,
          year == Year,
-         sex == )
+         sex == "total")
+
 
 
