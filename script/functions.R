@@ -20,7 +20,7 @@ library(seg)
 # Fixing issues!
 # small patch for the seg package
 
-seg_fixed
+seg_fixed <- new.env(parent)
 
 
 
