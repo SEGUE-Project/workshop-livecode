@@ -2,6 +2,7 @@
 
 # install packages if needed
 # "pak", "ineAtlas", "seg"
+# ineAtlas 
 
 # load packages
 
