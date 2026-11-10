@@ -98,4 +98,5 @@ spatial_data <- inner_join(tracts, shares,
                            by = "tract_code")
 
 spatial_data <- spatial_data %>%
-  st_make_vaild
+  st_make_valid() %>%
+  st_transform(2583)
