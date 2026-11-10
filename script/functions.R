@@ -71,3 +71,5 @@ data <- left_join(income, population,
                   by = "tract_code")
 
 head(data)
+
+
