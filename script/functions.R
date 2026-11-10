@@ -63,3 +63,4 @@ population <- population %>%
          year == Year) %>%
   select(tract_code, population)
 
+head(population)
