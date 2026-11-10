@@ -18,7 +18,9 @@ library(ineAtlas)
 library(seg)
 
 # Fixing issues!
-# small patch for the seg 
+# small patch for the seg package
+
+seg_fixed
 
 
 
