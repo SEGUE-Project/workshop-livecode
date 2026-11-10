@@ -47,7 +47,7 @@ scales <- c(250, 500) # two scales, in meters
 
 # Load data
 
-get
+get_atlas("distribution")
 
 
 
