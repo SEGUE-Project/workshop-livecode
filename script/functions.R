@@ -174,6 +174,4 @@ ggplot(
   labs(x = "Population rank p (share of people below threshold)",
        y = "Spatial information theory index H",
        colour = "Scale (m)") +
-  theme
-
-)
+  theme_minimal()
