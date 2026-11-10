@@ -116,3 +116,6 @@ study_area <- spatial_data %>%
   filter(district == District)
 
 
+# from polygons to points
+
+points <- st_point_on_surface(st_geom)
