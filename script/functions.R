@@ -145,11 +145,11 @@ for (scale in scales) {
       method = "information",
       smoothing = "kernel",
       sigma = scale,
-      useC = FALSE # see issue fix 2
+      useC = FALSE, # see issue fix 2
       negative.rm = FALSE
     )
     
-    SITI_
+    SITI_results <- rbind
 
     )
   }
