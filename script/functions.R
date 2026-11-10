@@ -94,4 +94,5 @@ shares <- data %>%
 tracts <- get_tract_geom(Year) %>%
   filter(substr(tract_code,1,5) == City)
 
-spatial_data <- inner_join(tracts)
+spatial_data <- inner_join(tracts, shares,
+                           by = "tract")
