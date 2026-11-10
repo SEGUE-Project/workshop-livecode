@@ -2,7 +2,7 @@
 library(sf)
 library(tidyverse)
 
-## Data
+## Data 
 
 rotterdam_muni <- st_read("data/rotterdam_500m.gpkg") |>
   st_transform(28992)
