@@ -6,7 +6,7 @@
 # install seg package
 # pak::pak("syunhong/seg")
 
-
+# install ine
 
 # load packages
 
