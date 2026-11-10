@@ -48,7 +48,7 @@ scales <- c(250, 500) # two scales, in meters
 # Load data
 
 income <- get_atlas("distribution_sex", "tract")
-
+population <- get_atlas()
 
 
 
