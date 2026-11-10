@@ -72,4 +72,6 @@ data <- left_join(income, population,
 
 head(data)
 
+# Calculate cumulative income share
 
+shares
