@@ -3,7 +3,8 @@
 # install packages if needed
 # "pak", "ineAtlas", "seg"
 
-# pak::pak("syunhong/seg)
+# pak::pak("syunhong/seg")
+
 
 # load packages
 
