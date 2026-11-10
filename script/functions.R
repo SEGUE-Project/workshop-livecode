@@ -91,4 +91,5 @@ shares <- data %>%
 
 # prepare spatial data  
 
-tracts <- 
+tracts <- get_tract_geom(Year) %>%
+  filter
