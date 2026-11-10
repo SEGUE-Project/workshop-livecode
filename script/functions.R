@@ -168,5 +168,7 @@ SITI_results
 
 ggplot(
   SITI_results, aes(Group, Value,
-                    colour = factor(Scale)) 
+                    colour = factor(Scale))) +
+  geom_line() +
+  
 )
