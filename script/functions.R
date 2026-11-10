@@ -60,6 +60,6 @@ income <- income %>%
 
 population <- population %>%
   filter(mun_code == City,
-         year = Year) %>%
-  select(tract_code)
+         year == Year) %>%
+  select(tract_code, population)
 
