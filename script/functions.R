@@ -31,3 +31,5 @@ for (name in c("spseg", "localenv")) {
 }
 
 # fixing issue n.2: useC = 
+
+?spseg
