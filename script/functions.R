@@ -78,7 +78,8 @@ shares <- data %>%
   transmute(
     tract_code, population,
     below_5000 = equivinc_below_5000/100,
-    below_7500 = 
+    below_7500 = equivinc_below_7500/100,
+    below_10000 = equivi
     
   )
   
