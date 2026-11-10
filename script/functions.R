@@ -45,6 +45,10 @@ Year <- 2022      # year of income atlas
 scales <- c(250, 500) # two scales, in meters
 
 
+# Load data
+
+get
+
 
 
 
