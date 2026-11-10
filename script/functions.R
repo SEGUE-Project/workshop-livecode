@@ -89,4 +89,4 @@ shares <- data %>%
     
   )
 
-#   
+# prepare spatial data  
