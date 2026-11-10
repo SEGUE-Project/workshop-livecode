@@ -42,7 +42,7 @@ District <- "01"  # district of Ciutat Vella
 Year <- 2022      # year of income atlas
 
 
-scales <- 
+scales <- c(250, 500) 
 
 
 
