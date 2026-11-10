@@ -22,6 +22,7 @@ library(seg)
 
 seg_fixed <- new.env(parent = asNamespace("seg"))
 
-seg_fixed$CRS <- sf::
+seg_fixed$CRS <- sf::st_crs
+
 
 
