@@ -97,4 +97,5 @@ tracts <- get_tract_geom(Year) %>%
 spatial_data <- inner_join(tracts, shares,
                            by = "tract_code")
 
-spatial
+spatial_data <- spatial_data %>%
+  st_make_vaild
