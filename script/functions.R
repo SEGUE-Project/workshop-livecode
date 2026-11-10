@@ -109,4 +109,4 @@ ggplot() +
 
 
 spatial_data <- spatial_data %>%
-  mutate(district )
+  mutate(district = substr(tract_code, 6, 7))
