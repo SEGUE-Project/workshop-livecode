@@ -101,4 +101,7 @@ spatial_data <- spatial_data %>%
   st_make_valid() %>%
   st_transform(25831)
 
-library(ggplot)
+library(ggplot2)
+
+ggplot() +
+  geom_sf
