@@ -159,9 +159,3 @@ for (scale in scales) {
 }
 
 
-
-    ))
-
-    )
-  }
-}
