@@ -30,6 +30,6 @@ for (name in c("spseg", "localenv")) {
   seg_fixed[[name]] <- fun
 }
 
-# fixing issue n.2: useC = 
+# fixing issue n.2: useC = FALSE
 
 ?spseg
