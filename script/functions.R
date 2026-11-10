@@ -120,3 +120,12 @@ study_area <- spatial_data %>%
 
 points <- st_point_on_surface(st_geometry(study_area))
 coords <- st_coordinates(points) 
+
+
+area_shares <- st_drop_geometry(study_area)
+thresholds <- names(area_shares)[grepl("^below_",names(area_shares))]
+
+
+# Calculate spatial Inf theory Indices (SITI)
+SITI_results <- data.frame()
+
