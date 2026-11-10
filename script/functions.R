@@ -170,5 +170,6 @@ ggplot(
   SITI_results, aes(Group, Value,
                     colour = factor(Scale))) +
   geom_line() +
-  
+  geoom_point() +
+  labs()
 )
