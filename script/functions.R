@@ -108,4 +108,5 @@ ggplot() +
   theme_minimal()
 
 
-spatial_data <- spati
+spatial_data <- spatial_data %>%
+  mutate(district )
