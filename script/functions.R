@@ -149,7 +149,9 @@ for (scale in scales) {
       negative.rm = FALSE
     )
     
-    SITI_results <- rbind
+    SITI_results <- rbind(SITI_results, data.frame(
+      Thr
+    ))
 
     )
   }
