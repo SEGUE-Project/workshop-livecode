@@ -85,7 +85,7 @@ shares <- data %>%
     below_60_median = equivinc_below_60p_median/100,
     below_140_median = 1 - equivinc_above_140p_median / 100,
     below_160_median = 1 - equivinc_above_160p_median / 100,
-    below_200_median = 1 - equivinc_above_200
+    below_200_median = 1 - equivinc_above_200p_median / equivinc_below_10000
     
   )
   
