@@ -146,7 +146,10 @@ for (scale in scales) {
       smoothing = "kernel",
       sigma = scale,
       useC = FALSE # see issue fix 2
-      negative
+      negative.rm = FALSE
+    )
+    
+    SITI_
 
     )
   }
