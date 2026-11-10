@@ -16,3 +16,6 @@ library(sf)
 library(tidyverse)
 library(ineAtlas)
 library(seg)
+
+# Fixing issues!
+
