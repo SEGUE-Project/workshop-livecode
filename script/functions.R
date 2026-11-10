@@ -108,4 +108,4 @@ ggplot() +
   theme_minimal()
 
 
-study_area <-
+spatial_data <- spati
