@@ -129,3 +129,4 @@ thresholds <- names(area_shares)[grepl("^below_",names(area_shares))]
 # Calculate spatial Inf theory Indices (SITI)
 SITI_results <- data.frame()
 
+for 
