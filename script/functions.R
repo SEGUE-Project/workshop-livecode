@@ -145,7 +145,8 @@ for (scale in scales) {
       method = "information",
       smoothing = "kernel",
       sigma = scale,
-      useC
+      useC = FALSE # see issue fix 2
+      negative
 
     )
   }
