@@ -139,7 +139,7 @@ for (scale in scales) {
     
     if (p > 0 && p < 1) {
       message("Scale ", scale, "m, ", threshold, " ...")
-    }
+  
     
     p <- sum(database$Below) / sum(area_shares$population)
     
