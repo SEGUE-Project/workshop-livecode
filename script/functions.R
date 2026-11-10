@@ -142,7 +142,7 @@ for (scale in scales) {
     SITI_results <- seg_fixed$spseg(
       x = coords,
       data = database,
-      
+      method = 
 
     )
   }
