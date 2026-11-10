@@ -82,7 +82,7 @@ shares <- data %>%
     below_10000 = equivinc_below_10000/100,
     below_40_median = equivinc_below_40p_median/100,
     below_50_median = equivinc_below_50p_median/100,
-    
+    below_60_median = equivi
     
   )
   
