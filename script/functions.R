@@ -167,5 +167,5 @@ SITI_results
 
 
 ggplot(
-  S
+  SITI_results, aes 
 )
