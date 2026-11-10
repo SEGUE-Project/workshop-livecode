@@ -153,7 +153,9 @@ for (scale in scales) {
       Threshold = threshold,
       Group = p,
       Scale = scale,
-      Value = SITI_res
+      Value = SITI_results@h
+    ))
+  }
     ))
 
     )
