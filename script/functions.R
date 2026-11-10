@@ -156,6 +156,10 @@ for (scale in scales) {
       Value = SITI_results@h
     ))
   }
+}
+}
+
+
     ))
 
     )
