@@ -170,9 +170,10 @@ ggplot(
   SITI_results, aes(Group, Value,
                     colour = factor(Scale))) +
   geom_line() +
-  geoom_point() +
+  geom_point() +
   labs(x = "Population rank p (share of people below threshold)",
        y = "Spatial information theory index H",
-       colour = "Scale (m)") 
+       colour = "Scale (m)") +
+  theme
 
 )
