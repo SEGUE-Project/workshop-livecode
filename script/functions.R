@@ -54,6 +54,8 @@ unique(income$sex)
 head(income$sex)
 
 income <- income %>%
-  filter(mun_code == City,)
+  filter(mun_code == City,
+         year == Year,
+         sex == )
 
 
