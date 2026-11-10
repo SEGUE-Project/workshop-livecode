@@ -151,7 +151,9 @@ for (scale in scales) {
     
     SITI_results <- rbind(SITI_results, data.frame(
       Threshold = threshold,
-      Group = 
+      Group = p,
+      Scale = scale,
+      Value = SITI_res
     ))
 
     )
