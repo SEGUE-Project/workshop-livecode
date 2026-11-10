@@ -171,5 +171,6 @@ ggplot(
                     colour = factor(Scale))) +
   geom_line() +
   geoom_point() +
-  labs(x = "Population rank p ")
+  labs(x = "Population rank p (share of people below threshold"),
+
 )
