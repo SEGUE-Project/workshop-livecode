@@ -114,3 +114,6 @@ spatial_data <- spatial_data %>%
 
 study_area <- spatial_data %>%
   filter(district == District)
+
+ggplot() +
+  geom_
