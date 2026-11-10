@@ -99,4 +99,6 @@ spatial_data <- inner_join(tracts, shares,
 
 spatial_data <- spatial_data %>%
   st_make_valid() %>%
-  st_transform(2583)
+  st_transform(25831)
+
+library(ggplot)
