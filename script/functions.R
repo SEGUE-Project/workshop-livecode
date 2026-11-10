@@ -132,6 +132,8 @@ SITI_results <- data.frame()
 for (scale in scales) {
   for (threshold in thresholds) {
     
-    data
+    database <- data.frame(
+      
+    )
   }
 }
