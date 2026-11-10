@@ -167,5 +167,6 @@ SITI_results
 
 
 ggplot(
-  SITI_results, aes 
+  SITI_results, aes(Group, Value,
+                    colour = factor(Scale)) 
 )
