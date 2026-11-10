@@ -65,4 +65,6 @@ population <- population %>%
 
 head(population)
 
-#
+# join income and population by census tract
+
+data <- 
