@@ -143,7 +143,7 @@ for (scale in scales) {
     
     p <- sum(database$Below) / sum(area_shares$population)
     
-    SITI_results <- seg_fixed$spseg(
+    SITI_result <- seg_fixed$spseg(
       x = coords,
       data = database,
       method = "information",
