@@ -30,3 +30,4 @@ for (name in c("spseg", "localenv")) {
   seg_fixed[[name]] <- fun
 }
 
+
