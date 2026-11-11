@@ -136,12 +136,11 @@ for (scale in scales) {
       Below = area_shares$population * area_shares[[threshold]],
       Above = area_shares$population * (1 - area_shares[[threshold]])
     )
+
+    p <- sum(database$Below) / sum(area_shares$population)
     
     if (p > 0 && p < 1) {
       message("Scale ", scale, "m, ", threshold, " ...")
-  
-    
-    p <- sum(database$Below) / sum(area_shares$population)
     
     SITI_result <- seg_fixed$spseg(
       x = coords,
